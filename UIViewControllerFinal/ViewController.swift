@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var myEMail: UITextField!
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(dissmissKeyboard))
